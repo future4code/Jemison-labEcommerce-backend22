@@ -19,7 +19,7 @@ https://labecommerce.onrender.com
 
 ### O que Não Funciona
 
-##### Endpoints  POST(labecommerce_products), POST (labecommerce_purchases), POST (labecommerce_users), GET (users),  GET (products),  GET (user_id) 
+##### Endpoints  POST(labecommerce_products, labecommerce_purchases, labecommerce_users), GET (users, products, user_id) 
 
 ##
 ### Autora 
