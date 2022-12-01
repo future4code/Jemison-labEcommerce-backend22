@@ -3,7 +3,7 @@ import createProduct from "./endpoints/createProduct";
 import createPurchase from "./endpoints/createPurchase";
 import createUser from "./endpoints/createUser";
 import getProducts from "./endpoints/getProducts";
-import getPurchaseByUser from "./endpoints/getPurchaseByUser";
+import getPurchaseUser from "./endpoints/getPurchaseUser";
 import getUsers from "./endpoints/getUsers";
 
 app.post("/users", createUser)
@@ -16,4 +16,4 @@ app.get("/products", getProducts)
 
 app.post("/purchases", createPurchase)
 
-app.get("/users/:user_id/purchases", getPurchaseByUser)
+app.get("/users/:user_id/purchases", getPurchaseUser)
